@@ -7,7 +7,7 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("/math")
-public class addition {
+public class Addition {
 
     @GET
     @Path("/{firstNumber}/{secondNumber}")
